@@ -56,7 +56,7 @@ model.st.add_block(
     main_key='SOURCE_TERM',
     PCS_TYPE='OVERLAND_FLOW',
     PRIMARY_VARIABLE='HEAD',
-    GEO_TYPE=['SURFACE', 'TOPO'],
+    GEO_TYPE='DOMAIN'
     DIS_TYPE=['CONSTANT_NEUMANN', 1.0],
     TIM_TYPE=['CURVE', 1],
 )
